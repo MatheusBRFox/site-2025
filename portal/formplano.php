@@ -30,6 +30,14 @@
             <input type="text" class="form-control" placeholder="R$ 0,00">
         </div>
     </div>
+    <br>
+    <div class="col-12">
+            <button type="submit" class="btn btn-primary" name="send" id="send ">Enviar</button>
+            <button type="button" class="btn btn-danger" name="limpa" id="limpa" onclick='form.reset()'>
+                <i class='fa fa-eraser' style="font-size:25px;"</i>
+                Limpar
+            </button>
+    </div>
 </form>
 <br>
     <?php include 'includes/footer.php'; ?>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>   
-    <title> INDEX | Pagina 02 </title>
+    <title> INDEX | Pagina 01 </title>
     <?php include 'includes-site/head.php'; ?>
 </head>
 <body>
