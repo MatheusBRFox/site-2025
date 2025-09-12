@@ -10,7 +10,8 @@ if (!in_array($nivel, $niveldapagina)) {
             alert('Você não tem permissão para acessar essa área.')
             history.go(-1);
         </script>";
-} else if(!empty($_POST['nome_plano']) OR !empty($_POST['desc_plano']) OR !empty($_POST['valor_plano'])){
+
+} else if(!empty($_POST['nome_plano']) OR !empty($_POST['desc_plano']) OR !empty($_POST['vlr_plano'])){
     $nomeplano= $_POST['nome_plano'];
     $decricaoplano= $_POST['nome_plano'];
     $valorplano= $_POST['nome_plano'];

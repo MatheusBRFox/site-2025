@@ -20,8 +20,7 @@
                             <a class="nav-link active" aria-current="page" id="header" href="index.php" style='font-size:15px'> Home <i class='fa fa-home'></i></a>
                         </li>
 
-                        <?php
-                            if ($_SESSION('nivel') != '3'){?>
+                        
                                 <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="header" style='font-size:15px'>Adicionar <i class='fa fa-plus'></i></a>
                                 <ul class="dropdown-menu">
@@ -31,9 +30,7 @@
                                     <li><a class="dropdown-item" href="#"> <i class='fa fa-headphones' style='font-size:15px'></i> Atendimentos </a></li>
                                 </ul>
                                 </li>
-                        <?php
-                            }
-                        ?>
+                        
                         <li class="nav-item">
                             <a class="nav-link" id="header" href="contato.php" style='font-size:15px'> Faturas <i class='fa fa-credit-card-alt'></i></a>
                         </li>

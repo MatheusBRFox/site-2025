@@ -26,6 +26,13 @@ if (!in_array($nivel, $niveldapagina)) {
     <center><h5> PREENCHA OS CAMPOS ABAIXO PARA ADICIONAR UM NOVO PLANO </h5></center>
 <br>
 
+    <?php
+        if(isset ($_SESSION['msgFormPlano'])){
+            echo $_SESSION['msgFormPlano'];
+            unset($_SESSION['msgFormPlano']);
+        }
+    ?>
+
 <form action="formplano_recebe.php">
     <div class="card border-primary" style="width: 75rem;">
         <div class="form-row">
@@ -39,7 +46,7 @@ if (!in_array($nivel, $niveldapagina)) {
         </div>
             <div class="col">
                 <label for="valorPlano">* Valor</label>
-                <input type="text" class="form-control" name="valor_plano" id="valor_plano" placeholder="R$ 0,00">
+                <input type="text" class="form-control" name="vlr_plano" id="vlr_plano" placeholder="R$ 0,00">
             </div>
         </div>
         <br>
